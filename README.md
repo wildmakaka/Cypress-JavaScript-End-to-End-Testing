@@ -8,3 +8,8 @@
 
 ### Part 2. Environment setup on Windows & Mac OS
 
+```
+$ npm init -y
+$ npm install cypress
+$ npx cypress open
+```
