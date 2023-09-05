@@ -22,3 +22,7 @@ or
 
 $ node_modules/.bin/cypress open
 ```
+
+<br/>
+
+### Part 3. How To Write & Run Tests in Cypress
