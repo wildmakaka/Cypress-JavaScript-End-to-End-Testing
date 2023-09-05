@@ -11,5 +11,14 @@
 ```
 $ npm init -y
 $ npm install cypress
+```
+
+Start cypress
+
+```
 $ npx cypress open
+
+or
+
+$ node_modules/.bin/cypress open
 ```
