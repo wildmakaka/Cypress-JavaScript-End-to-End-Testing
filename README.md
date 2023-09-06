@@ -2,11 +2,11 @@
 
 <br/>
 
-### Part 1. Introduction
+### Part 01. Introduction
 
 <br/>
 
-### Part 2. Environment setup on Windows & Mac OS
+### Part 02. Environment setup on Windows & Mac OS
 
 ```
 $ npm init -y
@@ -25,7 +25,7 @@ $ node_modules/.bin/cypress open
 
 <br/>
 
-### Part 3. How To Write & Run Tests in Cypress
+### Part 03. How To Write & Run Tests in Cypress
 
 <br/>
 
@@ -52,4 +52,36 @@ $ node_modules/.bin/cypress run --headless
 $ node_modules/.bin/cypress run --spec cypress/e2e/MyFirstTest.cy.js
 $ node_modules/.bin/cypress run --browser chrome
 $ node_modules/.bin/cypress run --browser chrome --headed
+```
+
+
+<br/>
+
+### Part 04. CSS & XPath Locators | get() & xpath() methods
+
+http://automationpractice.com/ - not working right now
+
+https://chrome.google.com/webstore/detail/selectorshub/
+
+
+```
+$ npm install -D cypress-xpath 
+```
+
+<br/>
+
+**cypress/support/commands.js**
+
+```
+
+/// <reference types"Cypress" />
+/// <reference types"cypress-xpath" />
+```
+
+<br/>
+
+**cypress/support/e2e.js**
+
+```
+require('cypress-xpath')
 ```
