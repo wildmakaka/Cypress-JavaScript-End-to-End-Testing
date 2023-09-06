@@ -85,3 +85,40 @@ $ npm install -D cypress-xpath
 ```
 require('cypress-xpath')
 ```
+<br/>
+
+**CSSLocators.cy.js**
+
+```js
+describe('CSSLocators', () => {
+  it('csslocators', () => {
+    cy.visit('https://automationpractice.com/index.php');
+    // cy.get('#search_query_top').type('T-Shirts');
+    // cy.get('.search_query_top').type('T-Shirts');
+    // cy.get("[name='search_query']").type('T-Shirts');
+
+    cy.get("input.search_query_top[name='search_query']").type('T-Shirts');
+
+    cy.get("[name='submit_searh']").click();
+    cy.get('.lighter').contains('T-Shirts');
+  });
+});
+```
+
+<br/>
+
+**XPathLocators.cy.js**
+
+```js
+describe('XPathLocators', () => {
+  it('find no of products', () => {
+    cy.visit('https://automationpractice.com/index.php');
+    cy.xpath("//ui[@id='homefeatured']/li").should('have.length', 7);
+  });
+
+  it('chained xpath', () => {
+    cy.visit('https://automationpractice.com/index.php');
+    cy.xpath("//ui[@id='homefeatured']").xpath('./li').should('have.length', 7);
+  });
+});
+```
