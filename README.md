@@ -122,3 +122,10 @@ describe('XPathLocators', () => {
   });
 });
 ```
+
+
+<br/>
+
+### Part 05. Assertions
+
+
