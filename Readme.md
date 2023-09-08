@@ -54,7 +54,6 @@ $ node_modules/.bin/cypress run --browser chrome
 $ node_modules/.bin/cypress run --browser chrome --headed
 ```
 
-
 <br/>
 
 ### Part 04. CSS & XPath Locators | get() & xpath() methods
@@ -63,9 +62,8 @@ http://automationpractice.com/ - not working right now
 
 https://chrome.google.com/webstore/detail/selectorshub/
 
-
 ```
-$ npm install -D cypress-xpath 
+$ npm install -D cypress-xpath
 ```
 
 <br/>
@@ -73,7 +71,6 @@ $ npm install -D cypress-xpath
 **cypress/support/commands.js**
 
 ```
-
 /// <reference types"Cypress" />
 /// <reference types"cypress-xpath" />
 ```
@@ -85,6 +82,7 @@ $ npm install -D cypress-xpath
 ```
 require('cypress-xpath')
 ```
+
 <br/>
 
 **CSSLocators.cy.js**
@@ -123,11 +121,20 @@ describe('XPathLocators', () => {
 });
 ```
 
-
 <br/>
 
 ### Part 05. Assertions
 
+<br/>
 
+### Part 06. Folder Structure | IntelliSense Auto Suggestions
 
+<br/>
 
+![Cypress](/img/pic01.png 'Cypress')
+
+<br/>
+
+### Part 07. Interacting with Elements | Radio Buttons & Checkboxes
+
+https://itera-qa.azurewebsites.net/ - not working right now
