@@ -60,7 +60,7 @@ $ node_modules/.bin/cypress run --browser chrome --headed
 
 http://automationpractice.com/ - not working right now
 
-https://chrome.google.com/webstore/detail/selectorshub/
+https://chrome.google.com/webstore/detail/selectorshub/ndgimibanhlabgdgjcpbbndiehljcpfh
 
 ```
 $ npm install -D cypress-xpath
@@ -138,3 +138,7 @@ describe('XPathLocators', () => {
 ### Part 07. Interacting with Elements | Radio Buttons & Checkboxes
 
 https://itera-qa.azurewebsites.net/ - not working right now
+
+<br/>
+
+### Part 08. Interacting with Elements | DropDowns
