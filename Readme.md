@@ -142,3 +142,7 @@ https://itera-qa.azurewebsites.net/ - not working right now
 <br/>
 
 ### Part 08. Interacting with Elements | DropDowns
+
+<br/>
+
+### Part 09. Interacting with Elements | Alerts
