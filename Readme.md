@@ -149,12 +149,16 @@ https://itera-qa.azurewebsites.net/ - not working right now
 
 <br/>
 
-### Part 10.
+### Part 10. Interacting with Elements | Handling Child Tabs
 
 <br/>
 
-### Part 11.
+### Part 11. Interacting with Elements | Handling iFrames
 
 ```
 $ npm install cypress-iframe
 ```
+
+<br/>
+
+### Part 12. Interacting with Elements | Handling Tables
