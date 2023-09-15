@@ -162,3 +162,11 @@ $ npm install cypress-iframe
 <br/>
 
 ### Part 12. Interacting with Elements | Handling Tables
+
+<br/>
+
+### Part 13. Interacting with Elements | Handling Mouse Events
+
+```
+$ npm install @4tw/cypress-drag-drop
+```
