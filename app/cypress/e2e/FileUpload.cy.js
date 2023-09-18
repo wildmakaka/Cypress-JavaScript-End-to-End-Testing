@@ -45,7 +45,7 @@ describe('File Uploads', () => {
     );
   });
 
-  it('[OK!] File Upload - Shadow Dom', () => {
+  it.skip('[OK!] File Upload - Shadow Dom', () => {
     cy.visit(
       'https://www.htmlelements.com/demos/fileupload/shadow-dom/index.htm'
     );

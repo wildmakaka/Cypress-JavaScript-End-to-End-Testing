@@ -178,3 +178,7 @@ $ npm install @4tw/cypress-drag-drop
 ```
 $ npm install cypress-file-upload
 ```
+
+<br/>
+
+### Part 15. Hooks & Tags
