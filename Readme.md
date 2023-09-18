@@ -170,3 +170,11 @@ $ npm install cypress-iframe
 ```
 $ npm install @4tw/cypress-drag-drop
 ```
+
+<br/>
+
+### Part 14. Interacting with Elements | Handling File Upload
+
+```
+$ npm install cypress-file-upload
+```
