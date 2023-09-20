@@ -197,8 +197,33 @@ $ npm install cypress-file-upload
 $ npx cypress run --spec cypress/e2e/CaptureScreenshotsAndVideos.cy.js
 ```
 
-20
+<br/>
+
+### Part 20. How To Generate HTML Reports | Headed & Headless mode execution
+
+https://www.npmjs.com/package/cypress-mochawesome-reporter
 
 ```
 $ npm install cypress-mochawesome-reporter
+```
+
+cypress.config.js
+
+```js
+const { defineConfig } = require('cypress');
+
+module.exports = defineConfig({
+  reporter: 'cypress-mochawesome-reporter',
+  e2e: {
+    setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
+    },
+  },
+});
+```
+
+cypress/support/e2e.js
+
+```
+import 'cypress-mochawesome-reporter/register';
 ```
