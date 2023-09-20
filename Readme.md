@@ -232,3 +232,14 @@ import 'cypress-mochawesome-reporter/register';
 ```
 $ npx cypress run --spec cypress/e2e/MyFirstTest.cy.js
 ```
+<br/>
+
+```
+$ npx cypress run --spec cypress/e2e/MyFirstTest.cy.js --browser chrome
+```
+
+<br/>
+
+```
+$ npx cypress run --headed --spec cypress/e2e/MyFirstTest.cy.js --browser chrome
+```
