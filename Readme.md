@@ -196,3 +196,9 @@ $ npm install cypress-file-upload
 ```
 $ npx cypress run --spec cypress/e2e/CaptureScreenshotsAndVideos.cy.js
 ```
+
+20
+
+```
+$ npm install cypress-mochawesome-reporter
+```
