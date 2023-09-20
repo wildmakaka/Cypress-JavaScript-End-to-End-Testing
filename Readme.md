@@ -227,3 +227,8 @@ cypress/support/e2e.js
 ```
 import 'cypress-mochawesome-reporter/register';
 ```
+<br/>
+
+```
+$ npx cypress run --spec cypress/e2e/MyFirstTest.cy.js
+```
