@@ -186,3 +186,13 @@ $ npm install cypress-file-upload
 <br/>
 
 ### Part 16. Fixtures & Data Driven Testing (Using JSON Data)
+
+17
+
+18
+
+19
+
+```
+$ npx cypress run --spec cypress/e2e/CaptureScreenshotsAndVideos.cy.js
+```
