@@ -187,11 +187,17 @@ $ npm install cypress-file-upload
 
 ### Part 16. Fixtures & Data Driven Testing (Using JSON Data)
 
-17
+<br/>
 
-18
+### Part 17. How To Create Custom commands
 
-19
+<br/>
+
+### Part 18. Browser Navigation | go() & reload()
+
+<br/>
+
+### Part 19. How To Capture Screenshots & Videos on Test Failures
 
 ```
 $ npx cypress run --spec cypress/e2e/CaptureScreenshotsAndVideos.cy.js
@@ -227,11 +233,13 @@ cypress/support/e2e.js
 ```
 import 'cypress-mochawesome-reporter/register';
 ```
+
 <br/>
 
 ```
 $ npx cypress run --spec cypress/e2e/MyFirstTest.cy.js
 ```
+
 <br/>
 
 ```
@@ -243,3 +251,7 @@ $ npx cypress run --spec cypress/e2e/MyFirstTest.cy.js --browser chrome
 ```
 $ npx cypress run --headed --spec cypress/e2e/MyFirstTest.cy.js --browser chrome
 ```
+
+<br/>
+
+### Part 21. Page Object Model Pattern in Cypress
